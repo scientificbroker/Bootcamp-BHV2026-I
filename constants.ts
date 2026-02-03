@@ -23,8 +23,8 @@ export const BROCHURE_URL = "https://www.canva.com/design/DAG-PfvWFLc/Cw6pU-Mw7J
 // 1. Si es externa, pega la URL completa.
 // 2. Si es un archivo local subido, usa: "/nombre-archivo.extensión" (ej: "/hero-bg.png")
 export const IMAGES = {
-  hero: "https://picsum.photos/id/1039/1920/1080",      // Imagen de fondo principal
-  context: "https://picsum.photos/id/1039/1920/1080",                   // Imagen sección 'El Contexto' (Link usuario)
+  hero:    "https://picsum.photos/id/1039/1920/1080",      // Imagen de fondo principal
+  context: "https://picsum.photos/id/1039/1920/1080",        // Imagen sección 'El Contexto' (Link usuario)
   demoDay: "https://picsum.photos/id/1039/1920/1080"        // Imagen sección 'Demo Day' (Edificio/Auditorio)
 };
 
