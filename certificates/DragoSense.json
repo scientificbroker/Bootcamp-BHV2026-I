@@ -41,24 +41,17 @@
     "achievement_tier": "Cumple requisitos"
   },
   "nonce": "a64d209a-f849-4140-9014-b722fc4949c5",
-  "relatedLink": [
-    {
-      "type": "RelatedLink",
-      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/DragoSense.html",
-      "name": "Visualizar Certificado (HTML)"
-    }
-  ],
   "display": {
     "contentMediaType": "text/html",
     "content": "\n        <div style=\"text-align: center; font-family: sans-serif; padding: 20px; border: 2px solid #00D287; border-radius: 8px; background-color: #f9f9f9;\">\n            <h2 style=\"color: #0A2540;\">Certificado de DragoSense</h2>\n            <p style=\"font-size: 16px; color: #6B7280;\">Para visualizar o descargar el certificado en su diseño oficial (HTML/PDF), haga clic en el siguiente enlace:</p>\n            <a href=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/DragoSense.html\" target=\"_blank\" style=\"display: inline-block; padding: 12px 24px; background-color: #00D287; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; margin: 10px 0; font-size: 16px;\">👉 VER CERTIFICADO VISUAL AQUÍ 👈</a>\n            <p style=\"font-size: 12px; color: #9CA3AF; margin-top: 10px;\">Nota: El botón \"Descarga el Registro en formato PDF\" del validador solo descarga el archivo de datos JSON.</p>\n            <hr style=\"border: 0; height: 1px; background: #E5E7EB; margin: 20px 0;\">\n            <iframe src=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/DragoSense.html\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 4px;\"></iframe>\n        </div>\n        "
   },
   "proof": {
-    "id": "urn:uuid:9b80c414-5e8a-47a7-bdc0-49bf454fd39a",
+    "id": "urn:uuid:313c27d7-a487-46ad-8a6b-f84a3ddbd377",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:43:48+00:00Z",
-    "proofValue": "zC5HwN6s5QzbUuFqdDdHbrJb3XCmHLEgHsfjcGe1UV3Gqo34e82SYWTKo1x4T2pRN62YxPbwVzzXZbqnjrj1MU54BKhcK969dHBCsUsj4hjZAcozfj6vgdKdsjELiTQAfgNN39cLUv6FSBssBSeaAnoPTH6gasiZqcdPLXMTyK95JKouKgDYyGq6umvxJThf7wN4noxDhDviiqs96HXddHYboGUz1qyoiu63TaM4gNfQHM4EKcvgBMm7PpTBvHZGCmfZnQznDsu3eTzfsZ67QwRyi33rk2R8NQgdeRim9yTNk79MunmA4cjKfqPLzSj5Ho7F6mJqUru9RUtsTasVd1cHdEUosioqY9LvjrBNMLvq8aeDJD5BZajuEzZHYinxuiayzP8gc2zYF96MEXdxs1iFVEPhAprYX2qgCDc2TgMV4vW1TEzSXzEVeRscjmkCjCE93SujuJVeeQEYZjKR4BPaFj5qF47JuQyJZCnMjKe2X3ZBnGLJm3zJfoSj75EoXCvaHvbfSkucFUdRviVs9FaSnREWfe9375ejugJZMuNWJXW3BctccKvt3kJZuUV9m9KUPpDrBaxGHt9s88xNyieJYAogLvrRYNLZxUauAPhHvt6pQFKJzWnqoDkGCsriQw3b3qyMxum81xZFK5xqWshADSsF74dc1MUopXn2jEbGwpTNLMwoGJX",
+    "created": "2026-05-10T08:47:13+00:00Z",
+    "proofValue": "zC5HwN6s5QzbUuFqdDdHbrJb3XCmHLEgHsfjcGe1UV3Gqo34e82SYWTKo1x4T2pRN62YxPbwVzzXZbqnjrj1MU54BKhcK969dHBCsUsj4hjZAcozfj6vgdKdsjELiTQAfgNN39cLUv6FSBssBSeaAnoPTH6gasiZqcdPLXMTyK95JKouKgDYyGq6umvxJThf7wN4noxDhDviiqs96HXddHYboGUz1qyoiu63TaM4gNfQHM4EKcvgBMm7PpTBvHZGCmfZnQznDsu3eTzfsZ67QwRyi33rk2R8NQgdeRim9yTNk79MunmA4cjKfqPLzSj5Ho7F6mJqUru9RUtsTasVd1cHdEUosioqY9LvjrBNMLvq8aeDJD5BZajuEzZHYinxuiayzP8gc2zYF96MEXdxs1iFVEPhAprYX2qgCDc2TgMV4vW1TEzSXzEVeRscjmkCjCE93SujuJVeeQEYZjKR4BPaFj5qF47JuQyJZCnMjKe2X3ZBnGLJm3zJfoSj75EoXCvaHvbfSkucFUdRviVs9FaSnREWfe9375ejugJZMuNWJXW3BctccKvt3kJZuUV9m9KUPpDrBaxGHt9s88xNyieJYAogLvrRfKJfHx4UeR5oG43dJyQfzLudZKzy7dDPpkEF7udRdkpm9HRq37QzYKUafduz4JFZXXStgWBZMYqe4nBFBogR3eQ",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

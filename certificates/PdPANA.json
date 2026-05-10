@@ -41,24 +41,17 @@
     "achievement_tier": "Sin clasificaciÃ³n"
   },
   "nonce": "ac9d4a27-0b08-4a31-bdc9-75f07f3a4de4",
-  "relatedLink": [
-    {
-      "type": "RelatedLink",
-      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/PdPANA.html",
-      "name": "Visualizar Certificado (HTML)"
-    }
-  ],
   "display": {
     "contentMediaType": "text/html",
     "content": "\n        <div style=\"text-align: center; font-family: sans-serif; padding: 20px; border: 2px solid #00D287; border-radius: 8px; background-color: #f9f9f9;\">\n            <h2 style=\"color: #0A2540;\">Certificado de PdPANA</h2>\n            <p style=\"font-size: 16px; color: #6B7280;\">Para visualizar o descargar el certificado en su diseño oficial (HTML/PDF), haga clic en el siguiente enlace:</p>\n            <a href=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/PdPANA.html\" target=\"_blank\" style=\"display: inline-block; padding: 12px 24px; background-color: #00D287; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; margin: 10px 0; font-size: 16px;\">👉 VER CERTIFICADO VISUAL AQUÍ 👈</a>\n            <p style=\"font-size: 12px; color: #9CA3AF; margin-top: 10px;\">Nota: El botón \"Descarga el Registro en formato PDF\" del validador solo descarga el archivo de datos JSON.</p>\n            <hr style=\"border: 0; height: 1px; background: #E5E7EB; margin: 20px 0;\">\n            <iframe src=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/PdPANA.html\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 4px;\"></iframe>\n        </div>\n        "
   },
   "proof": {
-    "id": "urn:uuid:180f1e03-2999-4d09-a991-188befc834a1",
+    "id": "urn:uuid:a928d491-7143-4f54-8277-f50303c9a288",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:43:48+00:00Z",
-    "proofValue": "zC5HwN6s5ajAL71bW2niWaEQcveNq3ov3fCAQFBofDrG5ihZ9Lp32Uqgc3QCzDG544ETWjMF2bVDVhKDPb2TLrK68uQ4UfNjvdJuneUizs8P2hiRmUW4CjXeAz1W96V1VD5a3vpC4nAPxgG6E8rPPPopwe5WPh8QNEdNqYthd2rEggr7yRyxTUJsLM6ojfH49hvZoJ7g2PKo9mtGnCGxUtKSrAiim5up4RcgyzYTw9NSwNMW6SwnHsbVbEjgtr1ggoH3TiekYo9SqKatusv5cmEXqu3Y88TcsDJLkgu1wNZAadaAAfNopgKBYToA2CuD3nE6bTuiFzj5JZ68Gzqpzyq6aaHwXxvJ61SgJR6YnQFvzhMWzoqEzPPNwQQUF1q92Wx5ApRmLrKHasN8gA35wc5fLqxLLWy1JopGV1AoPtzniWmmdBz3HDv3WJ2NgQqPsDxx9PYdG3TwDrtDzi1CmzSQ1hkxRGrTi6BUoMrntZMroo5oju9Yvpr3oTYRtXRYDrYkgxFWjTuuKweF3h3xCcq16RDrDT7jXF8Fg8DnPKEHy7BGVFq4a9TuFwT8xvumNPtxMKUb7hyokfKTeUoL573dwp5EfJ1q1B9ria861SEL6tGGEfPnZwV1V6qmCCJM5jF3XCwZiYVSU1WJ7XbKf8hDpmNN7zx44bGcR8EVpALL55qDGYGYxSP",
+    "created": "2026-05-10T08:47:12+00:00Z",
+    "proofValue": "zC5HwN6s5ajAL71bW2niWaEQcveNq3ov3fCAQFBofDrG5ihZ9Lp32Uqgc3QCzDG544ETWjMF2bVDVhKDPb2TLrK68uQ4UfNjvdJuneUizs8P2hiRmUW4CjXeAz1W96V1VD5a3vpC4nAPxgG6E8rPPPopwe5WPh8QNEdNqYthd2rEggr7yRyxTUJsLM6ojfH49hvZoJ7g2PKo9mtGnCGxUtKSrAiim5up4RcgyzYTw9NSwNMW6SwnHsbVbEjgtr1ggoH3TiekYo9SqKatusv5cmEXqu3Y88TcsDJLkgu1wNZAadaAAfNopgKBYToA2CuD3nE6bTuiFzj5JZ68Gzqpzyq6aaHwXxvJ61SgJR6YnQFvzhMWzoqEzPPNwQQUF1q92Wx5ApRmLrKHasN8gA35wc5fLqxLLWy1JopGV1AoPtzniWmmdBz3HDv3WJ2NgQqPsDxx9PYdG3TwDrtDzi1CmzSQ1hkxRGrTi6BUoMrntZMroo5oju9Yvpr3oTYRtXRYDrYkgxFWjTuuKweF3h3xCcq16RDrDT7jXF8Fg8DnPKEHy7BGVFq4a9TuFwT8xvumNPtxMKUb7hyokfKTeUoL573dwp5EfJ1q887x43bfVTcqS4D59PV9ZmboFD6U6wf2VYRhbGbdPPZ5bLNsqZ3UgaUeGxR75Ea1amEhH6e2SUahC3Z67z1AjnG",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

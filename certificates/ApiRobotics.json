@@ -41,24 +41,17 @@
     "achievement_tier": "Listo con ajustes"
   },
   "nonce": "846a96dd-b92e-404d-b81b-385bae8d2052",
-  "relatedLink": [
-    {
-      "type": "RelatedLink",
-      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/ApiRobotics.html",
-      "name": "Visualizar Certificado (HTML)"
-    }
-  ],
   "display": {
     "contentMediaType": "text/html",
     "content": "\n        <div style=\"text-align: center; font-family: sans-serif; padding: 20px; border: 2px solid #00D287; border-radius: 8px; background-color: #f9f9f9;\">\n            <h2 style=\"color: #0A2540;\">Certificado de ApiRobotics</h2>\n            <p style=\"font-size: 16px; color: #6B7280;\">Para visualizar o descargar el certificado en su diseño oficial (HTML/PDF), haga clic en el siguiente enlace:</p>\n            <a href=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/ApiRobotics.html\" target=\"_blank\" style=\"display: inline-block; padding: 12px 24px; background-color: #00D287; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; margin: 10px 0; font-size: 16px;\">👉 VER CERTIFICADO VISUAL AQUÍ 👈</a>\n            <p style=\"font-size: 12px; color: #9CA3AF; margin-top: 10px;\">Nota: El botón \"Descarga el Registro en formato PDF\" del validador solo descarga el archivo de datos JSON.</p>\n            <hr style=\"border: 0; height: 1px; background: #E5E7EB; margin: 20px 0;\">\n            <iframe src=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/ApiRobotics.html\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 4px;\"></iframe>\n        </div>\n        "
   },
   "proof": {
-    "id": "urn:uuid:730ac0c4-cb5d-4d33-a178-efaa351bdc6c",
+    "id": "urn:uuid:b63669b2-5657-4584-b77f-0161dee0831b",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:43:48+00:00Z",
-    "proofValue": "zC5HwN6s5QzbUuFq1wb42o5GcQSQi4EhrT6g9wUVu1F4Dyyo4rdBTyhjS5QZT4CPJtRzU5ZTpkVtnGJXC1YwaezRvUiRksCe8WwMh6zDLSRqJS5Fx4uL3XdQr2FjveSKFHNdAvXSqKJ7vER7ctbpQ9SfDCL64UK3Mgf268vreqM7K9XuZwMa88hdfMZszRGw27k3JzTwyPYEExRMMWoDdx1pR7XnJNdriV39We1uefQ6kwBGCF9rJM2cExauMgB9Nhv5FSn5uNGG9vRkgKXPx2BCLtweojr5RD25ZetD6xkB9o56Uf5HuYupBEHbsKw1SDzhabGmYvFMesdPFKxLBf3TLHkR3DW4gjpT9UpbgHrWbNtDW32WhsLMH7WMPU6m8VUGv4FaABKEfAiNaNpUpzaTegYjBpvuFJ38Pu5cbiCpsQghuVcf2gpqY8pBF6TsuAzBRGHEhbrRWwgCNhzQAK8xEd3drkuQSD78u29nXhdGnuwitaPE4SdXahVmfURACPHUaH2d7EV53KehgRycQHpyfYhXcLACw9swtwW18AyH6WPtARDEJaPApqH4yRSF8d7zKom1sNrQoS3jExt7ZQJBZLmMVmkGzcszpr5CBWCWHQj6JbRsbhxKhuLjd88D9FvegTFpUo5mpfsWQpCeDpV67EvBEi1ypZk7PurSw4dj1YHDF9xtJPV",
+    "created": "2026-05-10T08:47:12+00:00Z",
+    "proofValue": "zC5HwN6s5QzbUuFq1wb42o5GcQSQi4EhrT6g9wUVu1F4Dyyo4rdBTyhjS5QZT4CPJtRzU5ZTpkVtnGJXC1YwaezRvUiRksCe8WwMh6zDLSRqJS5Fx4uL3XdQr2FjveSKFHNdAvXSqKJ7vER7ctbpQ9SfDCL64UK3Mgf268vreqM7K9XuZwMa88hdfMZszRGw27k3JzTwyPYEExRMMWoDdx1pR7XnJNdriV39We1uefQ6kwBGCF9rJM2cExauMgB9Nhv5FSn5uNGG9vRkgKXPx2BCLtweojr5RD25ZetD6xkB9o56Uf5HuYupBEHbsKw1SDzhabGmYvFMesdPFKxLBf3TLHkR3DW4gjpT9UpbgHrWbNtDW32WhsLMH7WMPU6m8VUGv4FaABKEfAiNaNpUpzaTegYjBpvuFJ38Pu5cbiCpsQghuVcf2gpqY8pBF6TsuAzBRGHEhbrRWwgCNhzQAK8xEd3drkuQSD78u29nXhdGnuwitaPE4SdXahVmfURACPHUaH2d7EV53KehgRycQHpyfYhXcLACw9swtwW18AyH6WPtARDEJaPApqH4yRSF8d7zKom1sNrQoS3jExt7ZQJBZLmMVmkH7Zr6AKYmfXb1cafuDKXEbY57U1bSXsUtZ57JkWut9e9Qwzk68qeoFGGWZRxvBwdwLjiCFtFyZNt68W166bhW5jN",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

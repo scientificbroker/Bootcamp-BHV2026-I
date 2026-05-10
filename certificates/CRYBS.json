@@ -41,24 +41,17 @@
     "achievement_tier": "Cumple requisitos"
   },
   "nonce": "cdabf2bd-7dda-4eef-99b1-24a3d16edfe6",
-  "relatedLink": [
-    {
-      "type": "RelatedLink",
-      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/CRYBS.html",
-      "name": "Visualizar Certificado (HTML)"
-    }
-  ],
   "display": {
     "contentMediaType": "text/html",
     "content": "\n        <div style=\"text-align: center; font-family: sans-serif; padding: 20px; border: 2px solid #00D287; border-radius: 8px; background-color: #f9f9f9;\">\n            <h2 style=\"color: #0A2540;\">Certificado de CRYBS</h2>\n            <p style=\"font-size: 16px; color: #6B7280;\">Para visualizar o descargar el certificado en su diseño oficial (HTML/PDF), haga clic en el siguiente enlace:</p>\n            <a href=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/CRYBS.html\" target=\"_blank\" style=\"display: inline-block; padding: 12px 24px; background-color: #00D287; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; margin: 10px 0; font-size: 16px;\">👉 VER CERTIFICADO VISUAL AQUÍ 👈</a>\n            <p style=\"font-size: 12px; color: #9CA3AF; margin-top: 10px;\">Nota: El botón \"Descarga el Registro en formato PDF\" del validador solo descarga el archivo de datos JSON.</p>\n            <hr style=\"border: 0; height: 1px; background: #E5E7EB; margin: 20px 0;\">\n            <iframe src=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/CRYBS.html\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 4px;\"></iframe>\n        </div>\n        "
   },
   "proof": {
-    "id": "urn:uuid:b43c78ac-7858-40b1-a0b5-b0228e078081",
+    "id": "urn:uuid:f560ebb9-71be-4ac5-9422-8c69ac406b98",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:43:48+00:00Z",
-    "proofValue": "zz6UvtdphYhpmiwie57BAmG1PFmVhnUKvGNGxNaChGrvfSeDngc78mLMmAyd2s4WfKpgmzvNfsPdScU5wGv1seQT6fb642BQVAwTyAo3yq73ogDF1Bv6XxEPuXXcF6KWwLq1acvLsJaRcb4ptnJmjoasDFVRbLZinoKiipM2o99kAR7Y8mR1oK2jD4RLNoWaKcQvJJV2ntgHdJ6gHSFmnYGy6XQC7JYSZ2r182QyFeVXR3peVMSXWVUFmiYRCTVNm8LnJ6sPjz1ykaT3CwCGSrjDBwengjcQRdg8LFjQ8BsVvJZEndMefwoD7RtRCqee9nq96fja3xsYEf3rSpkcFHTmSLxuJXvWYnz3RxuqgPiE34mTc6u8Wv8qECa7MhSfmzbCDadAk9HRgKed1p8Ge59n2i59bAkXfoaiY9uJ76RfQwWAL2nErm4w4srxZPu7ygdYngTMJ8FhuacRQ3iLGQnHcrrdZhJ49xY6M6pe3qK5uptELJcax31CWTK8y36pKqyXeNxNEeDLeK1pnmvoeH6XGUaBLCt8anUTrEgtr9aB9hpRFoNtzCEqYUZXXnWGXvYPYn2eAx7QmGqDVPsWtfu",
+    "created": "2026-05-10T08:47:13+00:00Z",
+    "proofValue": "zz6UvtdphYhpmiwie57BAmG1PFmVhnUKvGNGxNaChGrvfSeDngc78mLMmAyd2s4WfKpgmzvNfsPdScU5wGv1seQT6fb642BQVAwTyAo3yq73ogDF1Bv6XxEPuXXcF6KWwLq1acvLsJaRcb4ptnJmjoasDFVRbLZinoKiipM2o99kAR7Y8mR1oK2jD4RLNoWaKcQvJJV2ntgHdJ6gHSFmnYGy6XQC7JYSZ2r182QyFeVXR3peVMSXWVUFmiYRCTVNm8LnJ6sPjz1ykaT3CwCGSrjDBwengjcQRdg8LFjQ8BsVvJZEndMefwoD7RtRCqee9nq96fja3xsYEf3rSpkcFHTmSLxuJXvWYnz3RxuqgPiE34mTc6u8Wv8qECa7MhSfmzbCDadAk9HRgKed1p8Ge59n2i59bAkXfoaiY9uJ76RfQwWAL2nErm4w4srxZPu7ygdYngTMJ8FhuacRQ3iLGQnHcrrdZhJ49xY6M6pe3qK5uptELJcax31CWTK8y36pSnwcyrRwifbqyUxdhW2Ae7DK2aptExEozbf7vJLxWzdpH2gzypq41e2FzfcGV28E46WUQkSAoGMmtEZ6Lqc8g1n",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
