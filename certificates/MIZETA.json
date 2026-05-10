@@ -1,7 +1,17 @@
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    "https://w3id.org/blockcerts/v3"
+    "https://w3id.org/blockcerts/v3",
+    {
+      "BlockcertsDiploma": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#BlockcertsDiploma",
+      "BootcampCompletion": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#BootcampCompletion",
+      "achievement": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#achievement",
+      "achievement_tier": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#achievement_tier",
+      "alumniOf": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#alumniOf",
+      "challenge_area": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#challenge_area",
+      "final_score": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#final_score",
+      "narrative": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/vocab#narrative"
+    }
   ],
   "type": [
     "VerifiableCredential",
@@ -9,9 +19,9 @@
   ],
   "issuer": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/issuer-profile.json",
   "issuanceDate": "2026-05-10T01:16:48Z",
-  "id": "urn:uuid:180679f3-7565-4df3-b4dc-76aa19cd2e1c",
+  "id": "urn:uuid:cf66984b-3faa-4305-9a59-7558d539d653",
   "credentialSubject": {
-    "id": "ecdsa-koblitz-pubkey:ms7B8DummyRecipientPubKey8Xyz",
+    "id": "ecdsa-koblitz-pubkey:ms7B2DummyRecipientPubKey2Xyz",
     "alumniOf": {
       "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I"
     },
@@ -26,18 +36,18 @@
     },
     "name": "*|NAME|*",
     "email": "*|EMAIL|*",
-    "final_score": "66.30",
+    "final_score": "74.09",
     "challenge_area": "BioeconomÃ­a AmazÃ³nica",
-    "achievement_tier": "Sin clasificaciÃ³n"
+    "achievement_tier": "FundaciÃ³n sÃ³lida"
   },
   "nonce": "*|CERTUID|*",
   "proof": {
-    "id": "urn:uuid:56876f87-7186-4a5a-8933-073e18a6247f",
+    "id": "urn:uuid:00949388-feec-43f1-8895-cbe19da65938",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T02:06:48+00:00Z",
-    "proofValue": "zC5HwN6s5ajAL71HyGumVAp8RtJzRU2oxhyCmjRg8c5f5s34Nw8ZmNJnzPTQdLZzq6cXnxTjSy2VQpA9CTw61mMLwg2UjocR6md9DM9zKfFUeeN2rCJktSkZ2qEzqJzTT4owHSVveei2pgejVunMtx278CbN7tN9x4DuMBbuq3jacvZCtvdEk6gj3JUQfGmzpsiDUfJ1cKCDQ8JS9MjiTHL6Gw3XQJ9GKpgVcr4zLciT9ueDHszzdDTSGRivss4TKZ9vFtDWdwY4yAjgbrKeR8cFiWboYStmQwPHSwnKLBJb4iqeAmgGQtrDDj1tCFRpYE8qAjK2iJxamQVbf2Az7aGG3KtNDerSk5X1ypJTr7GfuqvxUDcLwo9ZN1LokX7WG14cKFLYXFVSbcGaeYTbELgzfFtWXaRkaG1bfXBR23rLAkFGidbYasNJsFnLvpwZidx2ikVFH22ffaddZxh1TaSswYrsiem9DWmXqWJSVmk8JcSutjFDBnfsssKLmPprCGdBPrDqBmMpJPgKrXiVqSxEmTWcGRLDfVHsWPy3bzRAQQvKGSqfR8aQwQLuRNXKRD17rMpvPbZx9i7VVqx8U9qetRHdFevTMncQCuZ5cmRYrCjrGVSMMWZWHMcRLLopd4X2gQvbBpoqWb99j24Nq7DenLzKSisooXtaYGgMPVyFkwg3mmCLXmD",
+    "created": "2026-05-10T02:46:13+00:00Z",
+    "proofValue": "zC5HwN6s5ajAL71aphuozW9eckspz8u9gYHNtDh1wjqamYnV74L6TNefQZdd5L4SNBnKqbg1ps9ESTmJghof4w2J4DN1UC8vTHqSefu94PB9L26BzQvx9dudH8fZ9bH7edbW5Xv1ToHYBpgqLfRJppnSN6nfcwV4AKKzPBVg8SiUYvyJYZqkuABsgYAbZUcSphjG3E4U2agBcu8nwCwwaVYyPcQ7AW3V9UkeQnKt939ER9sDXroQbuDDdYpMYq4kLnhFEvGXigNJE5BGCyVVgWd86i5nFUwmG3mVadasPT7okgKpGvXZzkHHAKHb9Hp5GkwwpicrCUi5L1WUr5M3hDxUzfKfqieEfdsZVMZpVYy8wZL196e9o8UbvxMpawacrKNrarjdh7BvXfZYiACyk7QQuUzovBZAJCV6kYcopiVS3GYS97pvQfv42qaAp8BQT5mxbzajpLpgXNMJk6kZxhiBWbBWmXvRm8ogU3aRAVgJQFEoJLKsoafeQUgwbUeZsM4aK8iDmSn4ZuJy2LgLuG7mxgH1Yh2oWhysuskvR4MKaM5xNKqYrpsvG9tR5YtFtCSvGNRHRGK98BP2DxgYxS1tDV2e9Bw69K4vZaXKLStXAAmYNKDFNtBQUXQFDdvBAbSvCbz2bHpSZfhKK2uv1AcVDYWs9fLQKQgaTeDyYWtHz9DT2YjtbYq",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
