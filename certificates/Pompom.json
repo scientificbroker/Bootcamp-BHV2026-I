@@ -42,12 +42,12 @@
   },
   "nonce": "*|CERTUID|*",
   "proof": {
-    "id": "urn:uuid:d310582e-b9a0-4d3a-a804-91d7c9c848b3",
+    "id": "urn:uuid:f47f6490-2abc-4ece-af41-3116ed4830b5",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T03:08:01+00:00Z",
-    "proofValue": "zC5HwN6s5ajAL71bqD7wUz7zKiosADwVzJ9SeKwGS8fxzTmF1WF23iekroejvFvqXRMdaJkcKHGUJtpWCz1coAirELZqPCobcBcwGwzVuyoiWtWVD2aDxzrHqN2PmEPLVcv8SKieedAebjSjJH4cr5rWcJMsHqfxZjaQZpGJUZF5RvVET6gmRBsZXRpAEyPF5Pt9JLBTRVPR1pJc4w92kHF6CTsy8RR6wHXCKeFmRpnmvm9U7odngPZhwR4rBT7uRzvSnaHzoAnCAP1AtHz2y1zxyuufcDW5fv2eZNJQRkjZyqFx6Rnx1w92E6mSn96cnuh4vh4QqhgVZ5BRYKPn6uE9rpSR1no2CTq51g9b1NeymVpbZqrBUApXpaaPErFHt3vTF1bVSr23q4psdL5SQfeV1cH5g2ynkYNLAmoGnqCcjuwVZReKgdW6NdHgaS6G5nFMQZDND2zC22ksQWv5yftzZBn7gTwBSdQMZG5b2u57D9Gs5szXGktJP4AkB4pWFJkVamuNc9sHTVe99FagtzYuLHQi4XNi3gtbiqXjfDJeNGt9pPrWVvLceiZyUSkgU2qVMzN5MRkKvcA5ddqvdrmVv3BxcsdtMJyscKnUJUphgkH4JLfXTpQqJxNecNZ3wN368x3VCcpqi473WvBBnpN5SMPyLNYfUvGY8JQj7KcizU1ZAqmESye",
+    "created": "2026-05-10T07:40:49+00:00Z",
+    "proofValue": "zC5HwN6s5ajAL71bqD7wUz7zKiosADwVzJ9SeKwGS8fxzTmF1WF23iekroejvFvqXRMdaJkcKHGUJtpWCz1coAirELZqPCobcBcwGwzVuyoiWtWfwtKBJLvrfVSi1au5oXZcrucNxksG6urmUk1XfbT344tKdr2wPRNdWk4cu8tqDo6SVZpB7QtfqehPzVji3VgpJqipnLnCtYZQ5xxHKNnyHGVaq11oe5mMRhrqw6bJdDhsyMEsTxTasFjw83ZBZKjKGmG76AYDwAz4KH7yoyzmnBRwhkq858N8kEsnyr3XCRjhVVUH8y83j4p53LiF2GZeZzDAJMmd3xgjDhL38bw95bsrakWNVAurDFYjiiPno9Q1iXup9ikD9DFgy4zNLpZVRPtShxmewh1tk8oimLvkgzFoKjqs2on5gbzPPPDsxx2Cnhuj7ZZGAvrkipVkmyU7JfW7uiiLQE29PGVoVme7zhF9tEWWDkRM6ysFFFAyX4Y43dd7aWRzAPTtbSVaQNn7SLUkwTK84BwEwhyZe3xH9JVPExzk2PcBvGjFj2zCW93UDStKvtWVkdrU5sHxmWfNVuw2zCQG5548d7R9Gfs65iDSx96jgfNzJCp2CGB8ynuVHzYYSxkpgwyy1an2AVGjXogcN1uQCEPCjKjXSfqGp39bJDGruZUeRFiBsT4yNbAVGgM4uKj",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
