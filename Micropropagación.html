@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado Blockcert - Biohubventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0A2540;
+            /* Deep blue/slate */
+            --secondary: #00D287;
+            /* Blockchain/Tech green */
+            --accent: #F4C946;
+            /* Premium gold */
+            --bg-light: #F8F9FA;
+            --text-main: #1A1A1A;
+            --text-muted: #6B7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #E5E7EB;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .certificate-wrapper {
+            width: 1100px;
+            background: #ffffff;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            border-radius: 4px;
+        }
+
+        /* Blockchain Network Background Effect */
+        .certificate-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: radial-gradient(var(--secondary) 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Tech accent borders */
+        .tech-border-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+            z-index: 5;
+        }
+
+        .tech-border-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%);
+            z-index: 5;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            min-height: 750px;
+        }
+
+        /* Header / Membrete */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        .membrete-img {
+            max-width: 250px;
+            height: auto;
+        }
+
+        .cert-type-badge {
+            background: rgba(10, 37, 64, 0.05);
+            color: var(--primary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1px;
+            border: 1px solid rgba(10, 37, 64, 0.1);
+        }
+
+        /* Title Area */
+        .title-area {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title-area h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 48px;
+            color: var(--primary);
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .title-area p {
+            color: var(--secondary);
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Body Area */
+        .body-area {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .presented-to {
+            font-size: 16px;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        .recipient-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 56px;
+            color: var(--text-main);
+            font-weight: 700;
+            margin-bottom: 25px;
+            background: linear-gradient(90deg, #1A1A1A 0%, #4A4A4A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .achievement-desc {
+            font-size: 18px;
+            color: var(--text-main);
+            max-width: 800px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+
+        .achievement-desc strong {
+            color: var(--primary);
+        }
+
+        /* Grid Data for Course Info */
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            background: #F8FAFC;
+            border: 1px solid #E2E8F0;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 0 auto 40px;
+            max-width: 700px;
+        }
+
+        .data-item {
+            text-align: center;
+        }
+
+        .data-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .data-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 22px;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        /* Footer / Blockchain Verification Area */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: auto;
+            padding-top: 30px;
+            border-top: 1px solid #E2E8F0;
+        }
+
+        .blockchain-meta {
+            flex: 1;
+            padding-right: 40px;
+        }
+
+        .meta-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .verified-icon {
+            color: var(--secondary);
+            width: 20px;
+            height: 20px;
+        }
+
+        .meta-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 14px;
+            color: var(--primary);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .hash-box {
+            background: #F1F5F9;
+            border-radius: 6px;
+            padding: 12px 15px;
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            color: var(--text-muted);
+            word-break: break-all;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .hash-label {
+            font-weight: 700;
+            color: var(--primary);
+            margin-right: 5px;
+        }
+
+        .network-info {
+            display: flex;
+            gap: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .network-info span strong {
+            color: var(--text-main);
+        }
+
+        /* QR Code & Signatures */
+        .right-footer {
+            display: flex;
+            gap: 40px;
+            align-items: flex-end;
+        }
+
+        .signature {
+            text-align: center;
+            width: 180px;
+        }
+
+        .signature img {
+            max-width: 140px;
+            height: auto;
+            margin-bottom: 5px;
+        }
+
+        .sig-line {
+            height: 1px;
+            background: #CBD5E1;
+            margin-bottom: 8px;
+        }
+
+        .sig-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .sig-title {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .qr-wrapper {
+            text-align: center;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #E2E8F0;
+        }
+
+        .qr-img {
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+
+        .qr-label {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 8px;
+            text-transform: uppercase;
+        }
+
+        /* Premium Badge */
+        .premium-badge {
+            position: absolute;
+            top: 60px;
+            right: 80px;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #F4C946 0%, #D4AF37 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 15px -3px rgba(212, 175, 55, 0.3);
+            z-index: 10;
+        }
+
+        .premium-badge::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            right: 4px;
+            bottom: 4px;
+            border: 1px dashed rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+        }
+
+        .premium-badge svg {
+            width: 40px;
+            height: 40px;
+            color: white;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="certificate-wrapper">
+        <div class="tech-border-top"></div>
+        <div class="tech-border-bottom"></div>
+
+        <!-- Golden Shield / Seal -->
+        <div class="premium-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+        </div>
+
+        <div class="content">
+            <div class="header">
+                <!-- Se asume que membrete BHVv2.png está en la misma ruta o se ajusta a las necesidades -->
+                <img src="membrete BHVv2.png" alt="Biohubventure" class="membrete-img">
+                <div class="cert-type-badge">BLOCKCERT ON-CHAIN</div>
+            </div>
+
+            <div class="title-area">
+                <h1>Certificado de Bootcamp</h1>
+                <p>Programa de Incubación en Bioemprendimiento para Startups Verdes</p>
+            </div>
+
+            <div class="body-area">
+                <div class="presented-to">Certificado emitido a nombre de:</div>
+                <div class="recipient-name">Micropropagación</div>
+
+                <p class="achievement-desc">
+                    Ha completado satisfactoriamente los requerimientos académicos y prácticos del <strong>Bootcamp de
+                        Bioemprendimiento "Salvando la Amazonía"</strong>, validando sus competencias en desarrollo
+                    sostenible, modelos de negocio verde e innovación.
+                </p>
+
+                <div class="data-grid">
+                    <div class="data-item">
+                        <div class="data-label">Puntuación Final</div>
+                        <div class="data-value">66.91 / 100</div>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-label">Nivel Alcanzado</div>
+                        <div class="data-value" style="color: #D4AF37;">Cumple requisitos</div>
+                    </div>
+                    <div class="data-item">
+                        <div class="data-label">Fecha de Emisión</div>
+                        <div class="data-value">10 Mayo 2026</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="blockchain-meta">
+                    <div class="meta-header">
+                        <svg class="verified-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="meta-title">Verificación Blockchain (Smart Contract)</span>
+                    </div>
+
+                    <div class="hash-box">
+                        <span class="hash-label">TX HASH:</span>
+                        0x97d3bf9e165c05d0dc0af23298adb0d8d7c92e8a2b5b81ada3000211cfa6e53d
+                    </div>
+
+                    <div class="network-info">
+                        <span><strong>Red:</strong> Sepolia Testnet</span>
+                        <span><strong>ID Certificado:</strong> #ffd18383</span>
+                        <span><strong>Anchor:</strong> Burn Address</span>
+                    </div>
+                </div>
+
+                <div class="right-footer">
+                    <div class="signature">
+                        <!-- Placeholder for signature image if needed -->
+                        <div style="height: 40px;"></div>
+                        <div class="sig-line"></div>
+                        <div class="sig-name">Director Ejecutivo</div>
+                        <div class="sig-title">Biohubventure</div>
+                    </div>
+
+                    <div class="qr-wrapper">
+                        <!-- En producción este img src se reemplaza por la URL de generación de QR -->
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https%3A%2F%2Fsepolia.etherscan.io%2Ftx%2F0x97d3bf9e165c05d0dc0af23298adb0d8d7c92e8a2b5b81ada3000211cfa6e53d"
+                            alt="QR Code" class="qr-img">
+                        <div class="qr-label">Scan to Verify</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
