@@ -2,244 +2,79 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificado Blockcert - Biohubventure</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #f3f4f6;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        
-        .cert-container {
-            width: 100%;
-            max-width: 800px;
-            background: white;
-            border: 12px solid #0A2540;
-            padding: 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            position: relative;
-            font-family: 'Inter', sans-serif;
-            color: #1A1A1A;
-            box-sizing: border-box;
-        }
-        
-        .cert-inner-border {
-            border: 2px solid #00D287;
-            padding: 30px;
-            position: relative;
-        }
-        
-        .cert-header {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-        
-        .cert-logo {
-            width: 100%;
-            max-width: 700px;
-            height: auto;
-            max-height: 120px;
-            object-fit: contain;
-            display: block;
-            margin: 0 auto 15px;
-        }
-        
-        .cert-badge {
-            display: inline-block;
-            background: rgba(0, 210, 135, 0.1);
-            color: #00D287;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-        
-        .cert-title {
-            font-size: 32px;
-            color: #0A2540;
-            font-weight: 700;
-            margin: 15px 0 5px;
-            text-transform: uppercase;
-            text-align: center;
-        }
-        
-        .cert-subtitle {
-            color: #6B7280;
-            font-size: 14px;
-            font-weight: 400;
-            margin-bottom: 25px;
-            text-align: center;
-        }
-        
-        .cert-recipient-label {
-            font-size: 14px;
-            color: #6B7280;
-            text-align: center;
-            margin-bottom: 5px;
-        }
-        
-        .cert-recipient-name {
-            font-size: 36px;
-            color: #1A1A1A;
-            font-weight: 700;
-            text-align: center;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #E5E7EB;
-            display: inline-block;
-            padding-bottom: 5px;
-            width: auto;
-            min-width: 50%;
-        }
-        
-        .cert-text {
-            font-size: 15px;
-            line-height: 1.6;
-            color: #374151;
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto 25px;
-        }
-        
-        .cert-data-grid {
-            display: flex;
-            justify-content: space-around;
-            background: #F9FAFB;
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #E5E7EB;
-            margin-bottom: 30px;
-        }
-        
-        .cert-data-item {
-            text-align: center;
-        }
-        
-        .cert-data-label {
-            font-size: 11px;
-            color: #9CA3AF;
-            text-transform: uppercase;
-            margin-bottom: 3px;
-        }
-        
-        .cert-data-value {
-            font-size: 16px;
-            font-weight: 700;
-            color: #0A2540;
-        }
-        
-        .cert-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-top: 1px solid #E5E7EB;
-            padding-top: 20px;
-        }
-        
-        .cert-meta {
-            font-size: 11px;
-            color: #9CA3AF;
-            max-width: 60%;
-        }
-        
-        .cert-meta-item {
-            margin-bottom: 4px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        
-        .cert-meta-label {
-            font-weight: 700;
-            color: #6B7280;
-        }
-        
-        .cert-signature {
-            text-align: center;
-            width: 150px;
-        }
-        
-        .cert-sig-line {
-            height: 1px;
-            background: #D1D5DB;
-            margin-bottom: 6px;
-        }
-        
-        .cert-sig-name {
-            font-size: 13px;
-            font-weight: 700;
-            color: #0A2540;
-        }
-        
-        .cert-sig-title {
-            font-size: 11px;
-            color: #9CA3AF;
-        }
-    </style>
 </head>
-<body>
+<body style="margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
 
-<div class="cert-container">
-    <div class="cert-inner-border">
+<div style="width: 100%; max-width: 750px; background: #ffffff; border: 10px solid #0A2540; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); margin: 20px auto; box-sizing: border-box;">
+    
+    <div style="border: 2px solid #00D287; padding: 25px; position: relative;">
         
-        <div class="cert-header">
-            <img src="membrete BHVv2.png" alt="Header" class="cert-logo">
-            <div class="cert-badge">Blockcert On-Chain</div>
+        <!-- Header -->
+        <div style="text-align: center; margin-bottom: 20px;">
+            <img src="https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/membrete%20BHVv2.png" alt="Header" style="width: 100%; max-width: 650px; height: auto; max-height: 100px; object-fit: contain; display: block; margin: 0 auto 10px;">
+            <div style="display: inline-block; background: rgba(0, 210, 135, 0.1); color: #00D287; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;">
+                Blockcert On-Chain
+            </div>
         </div>
         
-        <div class="cert-title">Certificado de Bootcamp</div>
-        <div class="cert-subtitle">Programa de Incubación en Bioemprendimiento para Startups Verdes</div>
-        
-        <div style="text-align: center;">
-            <div class="cert-recipient-label">Certificado emitido a nombre de:</div>
-            <div class="cert-recipient-name">ApiRobotics</div>
+        <!-- Title -->
+        <div style="font-size: 28px; color: #0A2540; font-weight: 700; margin: 10px 0 5px; text-transform: uppercase; text-align: center;">
+            Certificado de Bootcamp
+        </div>
+        <div style="color: #6B7280; font-size: 13px; font-weight: 400; margin-bottom: 20px; text-align: center;">
+            Programa de Incubación en Bioemprendimiento para Startups Verdes
         </div>
         
-        <div class="cert-text">
+        <!-- Recipient -->
+        <div style="text-align: center; margin-bottom: 20px;">
+            <div style="font-size: 13px; color: #6B7280; margin-bottom: 5px;">Certificado emitido a nombre de:</div>
+            <div style="font-size: 32px; color: #1A1A1A; font-weight: 700; border-bottom: 2px solid #E5E7EB; display: inline-block; padding-bottom: 5px; width: auto; min-width: 50%;">
+                ApiRobotics
+            </div>
+        </div>
+        
+        <!-- Text -->
+        <div style="font-size: 14px; line-height: 1.6; color: #374151; text-align: center; max-width: 550px; margin: 0 auto 20px;">
             Ha completado satisfactoriamente los requerimientos académicos y prácticos del <strong>Bootcamp de Bioemprendimiento "Salvando la Amazonía"</strong>, validando sus competencias en desarrollo sostenible, modelos de negocio verde e innovación.
         </div>
         
-        <div class="cert-data-grid">
-            <div class="cert-data-item">
-                <div class="cert-data-label">Puntuación Final</div>
-                <div class="cert-data-value">95.5 / 100</div>
+        <!-- Data Grid -->
+        <div style="display: flex; justify-content: space-around; background: #F9FAFB; padding: 12px; border-radius: 8px; border: 1px solid #E5E7EB; margin-bottom: 25px;">
+            <div style="text-align: center;">
+                <div style="font-size: 10px; color: #9CA3AF; text-transform: uppercase; margin-bottom: 3px;">Puntuación Final</div>
+                <div style="font-size: 15px; font-weight: 700; color: #0A2540;">95.5 / 100</div>
             </div>
-            <div class="cert-data-item">
-                <div class="cert-data-label">Nivel Alcanzado</div>
-                <div class="cert-data-value" style="color: #D4AF37;">Gold</div>
+            <div style="text-align: center;">
+                <div style="font-size: 10px; color: #9CA3AF; text-transform: uppercase; margin-bottom: 3px;">Nivel Alcanzado</div>
+                <div style="font-size: 15px; font-weight: 700; color: #D4AF37;">Gold</div>
             </div>
-            <div class="cert-data-item">
-                <div class="cert-data-label">Fecha de Emisión</div>
-                <div class="cert-data-value">10 Mayo 2026</div>
+            <div style="text-align: center;">
+                <div style="font-size: 10px; color: #9CA3AF; text-transform: uppercase; margin-bottom: 3px;">Fecha de Emisión</div>
+                <div style="font-size: 15px; font-weight: 700; color: #0A2540;">10 Mayo 2026</div>
             </div>
         </div>
         
-        <div class="cert-footer">
-            <div class="cert-meta">
-                <div class="cert-meta-item">
-                    <span class="cert-meta-label">TX HASH:</span>
-                    <span>Verificable en Blockcerts</span>
+        <!-- Footer -->
+        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #E5E7EB; padding-top: 15px;">
+            <!-- Meta -->
+            <div style="font-size: 10px; color: #9CA3AF; max-width: 60%;">
+                <div style="margin-bottom: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                    <span style="font-weight: 700; color: #6B7280;">TX HASH:</span> Verificable en Blockcerts
                 </div>
-                <div class="cert-meta-item">
-                    <span class="cert-meta-label">Red:</span> Polygon Mainnet
+                <div style="margin-bottom: 3px;">
+                    <span style="font-weight: 700; color: #6B7280;">Red:</span> Polygon Mainnet
                 </div>
-                <div class="cert-meta-item">
-                    <span class="cert-meta-label">ID Certificado:</span> #2026-SAA-001847
+                <div style="margin-bottom: 3px;">
+                    <span style="font-weight: 700; color: #6B7280;">ID Certificado:</span> #2026-SAA-001847
                 </div>
             </div>
             
-            <div class="cert-signature">
-                <div class="cert-sig-line"></div>
-                <div class="cert-sig-name">Biohubventure</div>
-                <div class="cert-sig-title">Director Ejecutivo</div>
+            <!-- Signature -->
+            <div style="text-align: center; width: 140px;">
+                <div style="height: 1px; background: #D1D5DB; margin-bottom: 5px;"></div>
+                <div style="font-size: 12px; font-weight: 700; color: #0A2540;">Biohubventure</div>
+                <div style="font-size: 10px; color: #9CA3AF;">Director Ejecutivo</div>
             </div>
         </div>
         
