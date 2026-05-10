@@ -34,20 +34,20 @@
       "name": "Bootcamp de Bioemprendimiento - Salvando la Amazonía 2026-I",
       "description": "Completó exitosamente 8 semanas de formación en bioeconomía amazónica, validación lean startup, regulación biotech, finanzas y pitch ante inversores"
     },
-    "name": "*|NAME|*",
-    "email": "*|EMAIL|*",
+    "name": "Biotherm",
+    "email": "alesandrocs.23@gmail.com",
     "final_score": "0",
     "challenge_area": "BioeconomÃ­a AmazÃ³nica",
     "achievement_tier": "Sin datos"
   },
-  "nonce": "*|CERTUID|*",
+  "nonce": "ade3bf3b-7eb4-486a-8960-326f293b1d6c",
   "proof": {
-    "id": "urn:uuid:98d9a9fa-fe81-4dad-bdb8-e6a0be83abba",
+    "id": "urn:uuid:554453ab-80ce-4f23-8152-c5beca54df7a",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T07:51:24+00:00Z",
-    "proofValue": "zC5HwN6s5ajAL71aDS1yPvvoqWQs4ts1vCxU3hD958y7QFrRWpHaCs8vtbDUXBcUrTCnEPo3SVhZMBNWMevWF53Xqnu89KQSAxvsN3iWZyACpHA2JJStqMiBx35q8wp1f8XKVjYGuiS384fqda2CkyAQ1rbPJfGUDkRztyxGsez9a5gxkrsrhvLAoy3Yfa7ViPxmZCjTAwFd3AHi4ecGJEh2BUE8uACEtY8uHub3VAgvG4utJBP1J7v9jo61iHmjvYa7j2MxeWeYgKc3KpYrVgFRMiJtVxbUrPS86A6aiYruDiE4VCuHeiRkRHx9ZFhR5a4UkxN8bBt5EKGVMnPcwNSZ4Dpv2wa7U71uRkU5E83YjJZxqzagCwnT2MR7v4i13cbuRarwdxpCQJuZi5trM4yQwAMt7PXwFv1WooxHb6NoWgvmBwhBL4jacQVuJTVAneB4i2mKEZUurURfb7KK8qcy1Q8mkSd2pYCkyvybRkG8zgAxDZhjZXJTEdFocX2ob12BVPMnoHrXRq8L76AcSQG8kmtcHWapi5wBWQLfZye3mR8U1FrZs1TrTESiLuXnerhmKEAxNygDtrZQepEx1QeovF2unzLSSyEk4YgqKWzdZajB6udbbqGhCPf7w4sqse3EaRAQGBs5y4GukMh5rmBxsEQPFSsj9wfaPoXoUdCdfp42eQ8Xetp",
+    "created": "2026-05-10T08:03:12+00:00Z",
+    "proofValue": "zC5HwN6s5ajAL71JiH1zjNvn9BEQ4KWs8BkYB3rnp5K8HQ4212NVJSkSNcUkEojqA4hV9AwWHknfimp9xvhmWd7GehEgbBtEkYmuPbv1ho3hXy3jyzsj4UGhkuW9Q8br1ymbRQcj1fGtRySbGQwzeXfH71t1hVtetDoJbx7qBoJLvvTGBgdQK1JbRypdw3dsohuskGWKgGndL2Gjynt5A9fnfJLeXnz385j4WkjsgTs5ha4TijVaBq4aMNUXcfqh2YEVHo5NbJckEAd2pkQC1JceK6prkZGCD9Q32RCtzVikcN3QUyx1mgXgz7XjV83DoPp5J8gnN3v8icYYzGBVSMms6dGW3vwNnQeRFCEeLEReaqnA7KXh3YRkQf1Qpw84kGFo2LHfDCg6JC46F9XJXEyNU5N3tKetmnrmcKSoCAvnMe3RnYvRCje7fvanmFMCKxEVhvnrdS9fFofP3SgJfBQzbh45Wq7ZzK4WJoop2RY2xozsKDw33C3Rh5gYKBVMEz5BEWymDJzPQJNFXjNfddEZfwBjDWMmfpvyKRupqXXiopnDLRov5XPEfMbq4YfVbw7v7KCrimc9wsnXGcGp2Wy5QWmg6btuHb3bScyJoUERbTnTs1xsCpcjwVJd5i6yEoz6rstmTB6ZQBHHVYLD67kTcRDnJCpQ4s7Dkk8XGiZ8X46376uaVBg",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

@@ -34,20 +34,20 @@
       "name": "Bootcamp de Bioemprendimiento - Salvando la Amazonía 2026-I",
       "description": "Completó exitosamente 8 semanas de formación en bioeconomía amazónica, validación lean startup, regulación biotech, finanzas y pitch ante inversores"
     },
-    "name": "*|NAME|*",
-    "email": "*|EMAIL|*",
+    "name": "Qalia",
+    "email": "info@qalia.com",
     "final_score": "56.78",
     "challenge_area": "BioeconomÃ­a AmazÃ³nica",
     "achievement_tier": "Sin clasificaciÃ³n"
   },
-  "nonce": "*|CERTUID|*",
+  "nonce": "6cfbb0f4-b4b7-4715-ac4f-5cd8ce8663d9",
   "proof": {
-    "id": "urn:uuid:4e10073f-d59b-4987-8e69-099ed05ec732",
+    "id": "urn:uuid:077f9c9a-48a8-4fd0-a6df-8adc3a6729ed",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T07:51:24+00:00Z",
-    "proofValue": "zz6UvtdpggX5K85q7sakQMsREeuxQGvEhuqUoMveUANoFJExA1sv2L686SQoUaDMU27b3mHpgG3shgrUFnEKcaEuNU1sVJSmCgDceyWjzMYoYuX73HQuAeJGuknyynaXuzpGU9V5BhsutAqoqiCg9FEuxrJGZcEcLQZ9U5JetWHPfdnxP1ERbULRDQjZgHAxt9zL3ENALpmgKb7mnuJo85KSWzu1a74NxoTPmdRAUJj6QiLcGvVh6P72844US1aymCdur8nHZ8nRAi7hiC1pR5b3zXxRStL1eL9ujpftvqeKhAikjEZZ9te56b6MwYLuxtHKseU8pCv2xyLfYqMdU8wKzUctAzoGUC9NeHFpWy9nqu2acZoqPc2sDXcoSaue9ES6sAFojmyV6ACHF4y6Uip8jmyWKkkp2Gmgz2sMm8gUUxWY1LqxtEikaqMXfpGL5tth8jzrXKHJkBfmgJDeKStAP5sR3mm3iBZL4Zu7m61AwsqUBghkqHDPLURBhPbrHeZJE3cfmEFreNw8zbFoPMBGuS6k5BWd5Xx3ZgX5L8eFFcggTJ4Nho7XS64g4fcaMh8KwDUm5qLpQy15wYzU2wi",
+    "created": "2026-05-10T08:03:12+00:00Z",
+    "proofValue": "zz6UvtdpggX5K879b3EP9K3jWCT4yP2aTaKKo2Ki7WTTxWS2KrGoncZnMzgrSQsViFRVodrABSNobC5w36r3g3pK66dT5JE3MfLyuCC2GwkzuLBbieLLTpumVqGqMe6ues1249Jde76xeg4A67xVXbo2HpYQ4JevrVdD1HyMTR7mCeyuNLte3288P8PtBEGdK8xMjS55k6Ye1qXPF4E8p2q7QBctkVhWu3eBYx56kAKYf8B3DwEED13GGxzvR6YSu6djxDkTnbLSTwXLxXNAnd1UFbMSPw39Ds4z6eyTqQLq8KEobirFPQQQwQPDcDgzA3XsHHnyhBHCkq7CKFWGsfZbsQoVD6p8pWmEhWXB8o9K1v6ctKiPxkfw6rWXyr1EVZnXXW5nepqpVHaNwbU2rVMq3ocLAjJ6sa6i2KUvmZvhpxccFkvevk34TrhiMsBnz3gCnp8DaQn4vTU1ex99zoyxacd92k1uwuFf1VFaxMAd4GBR51DaTQi3vzusyCtXYbVGw4RCRmqCXCK2hzV36kLE7joS3153HVw4EcsWV8hB4G3jkBDqJ1hFdj5Gzr5LtrM4tHtamRFcQaekYUbCitS",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
