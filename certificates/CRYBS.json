@@ -41,13 +41,20 @@
     "achievement_tier": "Cumple requisitos"
   },
   "nonce": "cdabf2bd-7dda-4eef-99b1-24a3d16edfe6",
+  "relatedLink": [
+    {
+      "type": "RelatedLink",
+      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/CRYBS.html",
+      "name": "Visualizar Certificado (HTML)"
+    }
+  ],
   "proof": {
-    "id": "urn:uuid:c7387603-e4e9-49c2-90b5-00d14d33affd",
+    "id": "urn:uuid:83cfa116-8c05-478b-9cd6-282f26a7f826",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:17:01+00:00Z",
-    "proofValue": "zz6UvtdphYhpmivDinoA8jys8JpcswWZbBpDQh3bi7nthbWYvx5j3VpNxuZSDEwCmCJTG1t956e7FyadsrC3u92GmQA1yoKhouj69gadWBHMS9UmCDo7kVxsfe47Tz9yYmvML6m95JXdoE6X4Gs37qXMYp81PsFX21FGkurCK7fBDzMHvchv7ZFkgssh22biUx44Sse4jQAmNHNPaCPNpxp6M3PgDtT2Sk7U1tGVLEBdrHKD7v5MPqpzpyzLwsLKaddkSYXZ2YW4RPboQwQ37ruiNSbdXgVHEb3PjwyWAATnMrRgudkWXHtQAzHoEBWFccPDp7367e3HdRYiZkRFQvr7Kxp3pWcTWUAaaG6P5dCrYosS81rUhG6QSMtyyWmL4nSb7ea5Pwv9UTnpKq2Q92rQHe1TbRBcbfA9vJChETqk51w1e6K8MGYfFxMEPJvXCHvG6Z8AvpYydW16g6uwpMZhVogndtDYNC6frhQPfqLUaDQTsMoBiQtMjhq37LbY6HtkrYwyNToZ1Cxs3LhXf588qBdnBfdQDfExCaXaci1xF6JWVfJFtMgfLd5A6dmdTASZ2N7LP6JQkBAWDfy8Hr7",
+    "created": "2026-05-10T08:25:25+00:00Z",
+    "proofValue": "zz6UvtdphYhpmivDinoA8jys8JpcswWZbBpDQh3bi7nthbWYvx5j3VpNxuZSDEwCmCJTG1t956e7FyadsrC3u92GmQA1yoKhouj69gadWBHMS9UmCDo7kVxsfe47Tz9yYmvML6m95JXdoE6X4Gs37qXMYp81PsFX21FGkurCK7fBDzMHvchv7ZFkgssh22biUx44Sse4jQAmNHNPaCPNpxp6M3PgDtT2Sk7U1tGVLEBdrHKD7v5MPqpzpyzLwsLKaddkSYXZ2YW4RPboQwQ37ruiNSbdXgVHEb3PjwyWAATnMrRgudkWXHtQAzHoEBWFccPDp7367e3HdRYiZkRFQvr7Kxp3pWcTWUAaaG6P5dCrYosS81rUhG6QSMtyyWmL4nSb7ea5Pwv9UTnpKq2Q92rQHe1TbRBcbfA9vJChETqk51w1e6K8MGYfFxMEPJvXCHvG6Z8AvpYydW16g6uwpMZhVogndtDYNC6frhQPfqLUaDQTsMoBiQtMjhq37LbYzFHBdLD1Jh9CD6fnsJG6PbNyU5JnY1gsqJ9yt9jpVuW5FY1tFSy4BUVEpsF9qfoxXPkPnnoT6UUpAjAvoLuXL9S",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

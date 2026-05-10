@@ -41,13 +41,20 @@
     "achievement_tier": "Sin clasificaciÃ³n"
   },
   "nonce": "6cfbb0f4-b4b7-4715-ac4f-5cd8ce8663d9",
+  "relatedLink": [
+    {
+      "type": "RelatedLink",
+      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/Qalia.html",
+      "name": "Visualizar Certificado (HTML)"
+    }
+  ],
   "proof": {
-    "id": "urn:uuid:228533b5-6acc-42b6-9cf8-89fdc155f0f0",
+    "id": "urn:uuid:b6eca905-3f4f-453a-a4b8-56d435a5ce04",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:17:01+00:00Z",
-    "proofValue": "zz6UvtdpggX5K85mKR497y1QF6G44uW2iYzqFLfvsJfgBv86FKqKYNrWb4xz4CoQNRBaCqk1rdnzuzvYwwuPgXxpSgT4Rshq95j8YKx8UjLSKcQPDtzY2nc4XEV8e5ZJJDQXj9cHXpoQcaTiLEdkjo5pcYn9gEH6k8UmM9XVCrQoi7rJiMMxHyHyV9YU3dzkT5TTVskWvEMhnGCrMss88vUziZzeYwGwkYwTxb1yZ3kGrZbqbdT93m16jzA1yDta14qZj1SddtHKnNZFudXMv4xyzuLts4MKQw95kocxRnZ1RZDQpLtXt31Dd4gxSPkKBUvp6z7fmVsAj891tVjLkJnj59kvp8HGCsQz7sG2Ps4bSNHty1wU5wcmhbN67n3vdXpx21dp2oVK78HSeyCZ7MyCWaUhDfgPVPwXT92yFfmZJrRLhSHPbhdWwuWRmA872xR6QRxRh54uNaeaUnjkj3B17MvD9cJmBjRsyyXcYwUgYTh3iesUgnMmwxD89epa4mDT9oYnEVmZy6TSwFSb765dVpMXhqohFv93s4FFW1ArcVTb5SPBH9DR4e522MFRrPpn3GfX3Gp87VrRDZXjZZ9",
+    "created": "2026-05-10T08:25:25+00:00Z",
+    "proofValue": "zz6UvtdpggX5K85mKR497y1QF6G44uW2iYzqFLfvsJfgBv86FKqKYNrWb4xz4CoQNRBaCqk1rdnzuzvYwwuPgXxpSgT4Rshq95j8YKx8UjLSKcQPDtzY2nc4XEV8e5ZJJDQXj9cHXpoQcaTiLEdkjo5pcYn9gEH6k8UmM9XVCrQoi7rJiMMxHyHyV9YU3dzkT5TTVskWvEMhnGCrMss88vUziZzeYwGwkYwTxb1yZ3kGrZbqbdT93m16jzA1yDta14qZj1SddtHKnNZFudXMv4xyzuLts4MKQw95kocxRnZ1RZDQpLtXt31Dd4gxSPkKBUvp6z7fmVsAj891tVjLkJnj59kvp8HGCsQz7sG2Ps4bSNHty1wU5wcmhbN67n3vdXpx21dp2oVK78HSeyCZ7MyCWaUhDfgPVPwXT92yFfmZJrRLhSHPbhdWwuWRmA872xR6QRxRh54uNaeaUnjkj3B17MvD9cJmBjRsyyXcYwUgYTh3iesUgnMmwxD89epaxibsvaopAj7DAzANmD19qcLU8i2Y4BsAsZ45YdTVPCeycwAxqE3yaG1zYtF1mPHkvd8cohMdkezXY3rqoEU8brU",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

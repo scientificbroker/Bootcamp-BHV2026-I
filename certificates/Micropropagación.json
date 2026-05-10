@@ -41,13 +41,20 @@
     "achievement_tier": "Cumple requisitos"
   },
   "nonce": "a125c9a5-2ffc-4526-86bd-723db525c4a1",
+  "relatedLink": [
+    {
+      "type": "RelatedLink",
+      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/Micropropagaci%C3%B3n.html",
+      "name": "Visualizar Certificado (HTML)"
+    }
+  ],
   "proof": {
-    "id": "urn:uuid:fec8dd79-a1d1-4ab6-b297-e81f305a4ab6",
+    "id": "urn:uuid:59ae6cde-d816-4ad3-a949-41d968a9ee56",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:17:01+00:00Z",
-    "proofValue": "zz6UvtdpggX5K87D4bsJg6YU7pmTJAFunW1MzuTxSdKZMBqRnNK2r8YjMzWaB85jacbtYhmtHMdymAyRexHBTqopuexrEz4R5aunayhGwqeqfmCu2DVvL8h9aksUcFbrbXt8ZT7GRKMmyyduuJYXk1zeyy57of7npkpyRXhmtrDMUa586YZig3qd7Fbg7DNQb3uzQC15gyWc2gtDmBRouiqEiLSztdMzyb438sxbrcTAfzNXL1qqYfHenLoEqfdeTxivdt8nf7YEdCbdPjgrzS4DuK6ff85vePRjskMrqjQiwcEkbJMS6wW5jkgph8T13P8HJt3Ccbou44EF7Aam8L5EnKidwmjjw7zHYkephAY1C6v6SZuqqpu5VinHwZRuv8g9fD7DDQGpvqUx7WmKZGi3iPHTGbhvPEiWyWVwptzoxE93WV6xxiNKCQGyu9Xhe671u1At3e9gvGn3RtqkxAyYMKmUkqijhdk7FxkGZSa1wQjEFtxDCcp5QbczxFPiPmkZjpB79Azp18WE2ZTB2rLE3daCt1T3hcjJdnNc4ik2avZFMY7KAH4qDN89Mwub9JqSJsd1A8Kjc8dbitfiq3V",
+    "created": "2026-05-10T08:25:25+00:00Z",
+    "proofValue": "zz6UvtdpggX5K87D4bsJg6YU7pmTJAFunW1MzuTxSdKZMBqRnNK2r8YjMzWaB85jacbtYhmtHMdymAyRexHBTqopuexrEz4R5aunayhGwqeqfmCu2DVvL8h9aksUcFbrbXt8ZT7GRKMmyyduuJYXk1zeyy57of7npkpyRXhmtrDMUa586YZig3qd7Fbg7DNQb3uzQC15gyWc2gtDmBRouiqEiLSztdMzyb438sxbrcTAfzNXL1qqYfHenLoEqfdeTxivdt8nf7YEdCbdPjgrzS4DuK6ff85vePRjskMrqjQiwcEkbJMS6wW5jkgph8T13P8HJt3Ccbou44EF7Aam8L5EnKidwmjjw7zHYkephAY1C6v6SZuqqpu5VinHwZRuv8g9fD7DDQGpvqUx7WmKZGi3iPHTGbhvPEiWyWVwptzoxE93WV6xxiNKCQGyu9Xhe671u1At3e9gvGn3RtqkxAyYMKmUkqijhdk7FxkGZSa1wQjEFtxDCcp5QbczxFPjHj8zWbS95QLTD2D9rX1jmNb4gXFDEMWXKFeLKMaqwvE9bNGd7Kn7TPsQhcJ96ywvDY9H5JK7sWW92ge2JZc7sLp",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

@@ -41,13 +41,20 @@
     "achievement_tier": "FundaciÃ³n sÃ³lida"
   },
   "nonce": "9fb31de4-010b-4ef1-b0b2-93f359e42b65",
+  "relatedLink": [
+    {
+      "type": "RelatedLink",
+      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/MIZETA.html",
+      "name": "Visualizar Certificado (HTML)"
+    }
+  ],
   "proof": {
-    "id": "urn:uuid:8db846fa-7eb5-49b5-b34b-3f6244ce24ef",
+    "id": "urn:uuid:dc842e1b-510f-49bd-a1fa-37ed4532bba3",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:17:01+00:00Z",
-    "proofValue": "zz6UvtdphYhpmiv6mzkJ3svpxswkvf1HSWNRWmFtDm2Py5gqd3UAbU9qDoAZxHTNdS9PTsYD27LND5kTqot8WyJryRnRZKJ6AUZMUQRuHZHPu7QYTVguCqFZM3PxhQ5LNzibB8YKrEQsmTP1mtMyQAVvQbgyNw2JGt6tahMeHoDYGEJxXfmGYBNscdqzxzDSvQ2VUuENXhFmALpVVEeUwCSviUcwW7HgN96HzNgNzzNnGrxkagJDDMwcdV2hX4BFPkgeUw35npRQEibtXCfLdqejvbvHMCbJCGhEqiEYMdBgDyZSKN4xNa3CBAeYTSYpnGQHSwdyYvrhexpty79RvNq6M2egSXuRwS96j9fuhWF8Kafn3HvUviZWST9mfvoU3vSp9cYCA42FY5CMzA7pToFLQrPZgecekuefQZSqszNK14TgjsLPpeZfhLq3zE7yMr4ZH3UMtjR8nB8w1JzqQ6fW3wFeau4fd364QukYq3gctKhUxY62rLiuPuta5cfmFPyg98GpW2q8CNehajSZaL7MUFwJQRLYDULDLojCYXvYRkqdwLpGiDbzdLkBi2U3L9jF4mQ1GLk14BfPhDZT6um",
+    "created": "2026-05-10T08:25:25+00:00Z",
+    "proofValue": "zz6UvtdphYhpmiv6mzkJ3svpxswkvf1HSWNRWmFtDm2Py5gqd3UAbU9qDoAZxHTNdS9PTsYD27LND5kTqot8WyJryRnRZKJ6AUZMUQRuHZHPu7QYTVguCqFZM3PxhQ5LNzibB8YKrEQsmTP1mtMyQAVvQbgyNw2JGt6tahMeHoDYGEJxXfmGYBNscdqzxzDSvQ2VUuENXhFmALpVVEeUwCSviUcwW7HgN96HzNgNzzNnGrxkagJDDMwcdV2hX4BFPkgeUw35npRQEibtXCfLdqejvbvHMCbJCGhEqiEYMdBgDyZSKN4xNa3CBAeYTSYpnGQHSwdyYvrhexpty79RvNq6M2egSXuRwS96j9fuhWF8Kafn3HvUviZWST9mfvoU3vSp9cYCA42FY5CMzA7pToFLQrPZgecekuefQZSqszNK14TgjsLPpeZfhLq3zE7yMr4ZH3UMtjR8nB8w1JzqQ6fW3wFeau4fd364QukYq3gctKhUxY62rLiuPuta5cfn9MN6uuXrSGAmQGMdQh18JrNC79cJkmQ1q7FF2NwSRjQfSCZ1h8V51LQa7avBT4WNQP35qC67yivQUjfpGtVr9D6",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

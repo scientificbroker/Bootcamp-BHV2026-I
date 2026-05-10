@@ -41,13 +41,20 @@
     "achievement_tier": "FundaciÃ³n sÃ³lida"
   },
   "nonce": "98366719-efb7-401a-a59e-6ce4aa6856d3",
+  "relatedLink": [
+    {
+      "type": "RelatedLink",
+      "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/Pompom.html",
+      "name": "Visualizar Certificado (HTML)"
+    }
+  ],
   "proof": {
-    "id": "urn:uuid:511c12d7-f1e2-4a3c-aa31-7b9846d79f1c",
+    "id": "urn:uuid:17e9722f-40d2-4145-aa38-985cf2126bf1",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:17:01+00:00Z",
-    "proofValue": "zC5HwN6s5QzbUuFqxbfkgH53wFxvtA3XjZmCzjHXX4i5qHNvPESEBGC9vvC9nt63JC3CQNaGq663uCh6LP9Co93Fb9MjrFoLiJpmd2RRWViZWDt1tyR7FAt8GN5KxKG6fxo8suCKZnNCwQHbJKYnejFmyPZLuFmSxFWdDMZstNC2hDqaV3bkEFBcJD1FLhqX1Krm1iiLgnaR1iAFQp4RCpuj938wjyrVtD5XD2F3qMS8VmaVHNsGhVo2sgrKPy8TgMbBwkRiCeVF1fPmQAToF6wgBDRXstNKzff8ZEMF2Bd7N518eMESs5bUbgCyJ5wvjxFu2f8QebYpgeHC4hcbpQXyd75XxU7otuGuowBWfCUXvza4xLdNF7NhsuPtdyMceuHrh5y7TXEBRPUvyzoj52wSuhqbEaouQEd6HjU2ARxzN9Y7XuJXYHfLG7qESiF5NZeE3KtocqN3EPgc1rPwD8u7QtMAkdvkquz6YvauxqfFNp6r5qaw27c4swpeuYqL9EhFH7yoxY2DZsogZCrgETKaJUchmFqV1Xdt3wbqnteaqvK2z9kTsLTRjDgCzrq3qjg8wKH3rvrGNCfeGAwxmdE1YRYao59Kz3uVfJHhAwY7HQr6xAYKx6DrRaGPmmJoPJgtUFcEyvBWCgbJ9NXRYZtF4eFjBoGgCMVo7NcZSKPs7QZqn7Derfq",
+    "created": "2026-05-10T08:25:24+00:00Z",
+    "proofValue": "zC5HwN6s5QzbUuFqxbfkgH53wFxvtA3XjZmCzjHXX4i5qHNvPESEBGC9vvC9nt63JC3CQNaGq663uCh6LP9Co93Fb9MjrFoLiJpmd2RRWViZWDt1tyR7FAt8GN5KxKG6fxo8suCKZnNCwQHbJKYnejFmyPZLuFmSxFWdDMZstNC2hDqaV3bkEFBcJD1FLhqX1Krm1iiLgnaR1iAFQp4RCpuj938wjyrVtD5XD2F3qMS8VmaVHNsGhVo2sgrKPy8TgMbBwkRiCeVF1fPmQAToF6wgBDRXstNKzff8ZEMF2Bd7N518eMESs5bUbgCyJ5wvjxFu2f8QebYpgeHC4hcbpQXyd75XxU7otuGuowBWfCUXvza4xLdNF7NhsuPtdyMceuHrh5y7TXEBRPUvyzoj52wSuhqbEaouQEd6HjU2ARxzN9Y7XuJXYHfLG7qESiF5NZeE3KtocqN3EPgc1rPwD8u7QtMAkdvkquz6YvauxqfFNp6r5qaw27c4swpeuYqL9EhFH7yoxY2DZsogZCrgETKaJUchmFqV1Xdt3wbqnteaqvK2z9kTsLTRjDgCzrq3qjg8wKH3rvrGNCfeGAwxmdE1YRYao59Lt1HvS5Yj7AskVJZ2n86tgcUh4TwQ87NGzwbv9ppUs7fdD8JfuACDqggpYtRivqK1GaodsoJg9haGXxaGMnA3tyA",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
