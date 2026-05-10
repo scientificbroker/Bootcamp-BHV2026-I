@@ -48,13 +48,17 @@
       "name": "Visualizar Certificado (HTML)"
     }
   ],
+  "display": {
+    "contentMediaType": "text/html",
+    "content": "\n        <div style=\"text-align: center; font-family: sans-serif; padding: 20px; border: 2px solid #00D287; border-radius: 8px; background-color: #f9f9f9;\">\n            <h2 style=\"color: #0A2540;\">Certificado de PdPANA</h2>\n            <p style=\"font-size: 16px; color: #6B7280;\">Para visualizar o descargar el certificado en su diseño oficial (HTML/PDF), haga clic en el siguiente enlace:</p>\n            <a href=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/PdPANA.html\" target=\"_blank\" style=\"display: inline-block; padding: 12px 24px; background-color: #00D287; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; margin: 10px 0; font-size: 16px;\">👉 VER CERTIFICADO VISUAL AQUÍ 👈</a>\n            <p style=\"font-size: 12px; color: #9CA3AF; margin-top: 10px;\">Nota: El botón \"Descarga el Registro en formato PDF\" del validador solo descarga el archivo de datos JSON.</p>\n            <hr style=\"border: 0; height: 1px; background: #E5E7EB; margin: 20px 0;\">\n            <iframe src=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/PdPANA.html\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 4px;\"></iframe>\n        </div>\n        "
+  },
   "proof": {
-    "id": "urn:uuid:28e2e8be-540d-420c-80b6-6d7dcfe10f68",
+    "id": "urn:uuid:180f1e03-2999-4d09-a991-188befc834a1",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:38:25+00:00Z",
-    "proofValue": "zC5HwN6s5ajAL71KPSs9GXh9G8UeEpuJmzXvY7qJzKFnfDQsZPW9uXsSr2CiY5DLTL74XJLgKsfZwDe3Ds4xiuVvD2AFXGd2XKre7ZPrMeHWd7fXoQZSNSaQ4Rf5iuV9BRQ18opdh3CMCkQ16BRXR6jwx7Q14qnnomkTh4m9Qa9oZ5ZxrB5wch4eS4DZozkxrzgzCgkTqZqUjhkKfgTpP2FwnmhTMrSGEjL8i5nKmN2eTvpKxYt7ERMpTvsE2bn4sSgdUerj6xTNCRxZwSgJatqRQCvrMNDGjzDfM1AotsdaDvgEqfsyhXVch3zjqfrNrAZS9RXNLcJUjetfqBUZ7GnUmWzdgeCVyiaZ2AopGSRZ4gRcBSN3PRb3spvV89NXGssyztkKefDhuxPj73ztKsQW4CeJCKqLKYXbPsg3ak4L7rvTpj82WEdsgoCJWZg86vqhAPxivyMHfUSBPBK2GzyM9JLCU84oBhXTPLAgmQQsHKxgdZL4Npn492wDgNzD3AW5nLVfT5YFMmwidEUuXeWc18AWD1r7rYJyvV7hMuqEgR7BXga33v29jMd2Gs9ixLrSNsseh4natApPd5enmfBaYzxjeDUSx5grJ78aDWy95LFa4TaD6HeT2QHytWv8cYHxTckvn5LwgWPaCv9UjYPZSam8gVLTusMxvv6E6r9Eg9uFQkij65A",
+    "created": "2026-05-10T08:43:48+00:00Z",
+    "proofValue": "zC5HwN6s5ajAL71bW2niWaEQcveNq3ov3fCAQFBofDrG5ihZ9Lp32Uqgc3QCzDG544ETWjMF2bVDVhKDPb2TLrK68uQ4UfNjvdJuneUizs8P2hiRmUW4CjXeAz1W96V1VD5a3vpC4nAPxgG6E8rPPPopwe5WPh8QNEdNqYthd2rEggr7yRyxTUJsLM6ojfH49hvZoJ7g2PKo9mtGnCGxUtKSrAiim5up4RcgyzYTw9NSwNMW6SwnHsbVbEjgtr1ggoH3TiekYo9SqKatusv5cmEXqu3Y88TcsDJLkgu1wNZAadaAAfNopgKBYToA2CuD3nE6bTuiFzj5JZ68Gzqpzyq6aaHwXxvJ61SgJR6YnQFvzhMWzoqEzPPNwQQUF1q92Wx5ApRmLrKHasN8gA35wc5fLqxLLWy1JopGV1AoPtzniWmmdBz3HDv3WJ2NgQqPsDxx9PYdG3TwDrtDzi1CmzSQ1hkxRGrTi6BUoMrntZMroo5oju9Yvpr3oTYRtXRYDrYkgxFWjTuuKweF3h3xCcq16RDrDT7jXF8Fg8DnPKEHy7BGVFq4a9TuFwT8xvumNPtxMKUb7hyokfKTeUoL573dwp5EfJ1q1B9ria861SEL6tGGEfPnZwV1V6qmCCJM5jF3XCwZiYVSU1WJ7XbKf8hDpmNN7zx44bGcR8EVpALL55qDGYGYxSP",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

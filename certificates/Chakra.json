@@ -48,13 +48,17 @@
       "name": "Visualizar Certificado (HTML)"
     }
   ],
+  "display": {
+    "contentMediaType": "text/html",
+    "content": "\n        <div style=\"text-align: center; font-family: sans-serif; padding: 20px; border: 2px solid #00D287; border-radius: 8px; background-color: #f9f9f9;\">\n            <h2 style=\"color: #0A2540;\">Certificado de Chakra</h2>\n            <p style=\"font-size: 16px; color: #6B7280;\">Para visualizar o descargar el certificado en su diseño oficial (HTML/PDF), haga clic en el siguiente enlace:</p>\n            <a href=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/Chakra.html\" target=\"_blank\" style=\"display: inline-block; padding: 12px 24px; background-color: #00D287; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; margin: 10px 0; font-size: 16px;\">👉 VER CERTIFICADO VISUAL AQUÍ 👈</a>\n            <p style=\"font-size: 12px; color: #9CA3AF; margin-top: 10px;\">Nota: El botón \"Descarga el Registro en formato PDF\" del validador solo descarga el archivo de datos JSON.</p>\n            <hr style=\"border: 0; height: 1px; background: #E5E7EB; margin: 20px 0;\">\n            <iframe src=\"https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/Chakra.html\" width=\"100%\" height=\"600px\" style=\"border: none; border-radius: 4px;\"></iframe>\n        </div>\n        "
+  },
   "proof": {
-    "id": "urn:uuid:c35df116-973e-4e4f-8e13-c8d2c6da0159",
+    "id": "urn:uuid:28639725-4f0b-49d6-80ec-c32d209dd5d0",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:38:25+00:00Z",
-    "proofValue": "zC5HwN6s5QzbUuFbUcxhZeYmmhpwoFsm3rAHhfjNcqzLYemd1Aq78GSf2YgfXB2ubLZS8MKXYMszgAgFw9xw8wJHEMUoPwNfTkuuc9vpM7SwDdr4hziUcrfqBQNy1GXmDEthyfUfNrwyiAFJXKMCBJ5EMHWZWp7fxLupyasPAvnmDAQPU3FLsRbThRY2JQNYxsCBonhZKJpXj2ATGUGcPzJUxsdCfsjsPCLmr6SyS2BNypNCMx1LYfUSxDEi3LNVFtNhNmbyzaNjDFPx5HSUSfgrRpGFRjBCVfSnBnCjWJG36tMGkTbeaQfPmCHuN2FEnMCsArWhzcW6Cf3CXLWeFfVhKXNZ6k5M7Jyn4e8eFji7EaQT8HudiYon6fpVhJRHQGcPR1uVm3DhtxNd2MRA2xjckvsg9FSD525ZvAd6CCKB4Et9CRiZ6gchUyG9SuRUr6jVqD3UWmVNUwnWX1ZMwqTmkxcmMxt55evxWRME5KDVFbAP7ChEPqv9LQPogiuT94mZfRVVapyGnre1xGXKhP3XG5bNNQgLMvWZF3ZmCSk3HvVLbg3oTPZLRhkjuMamb9K8387wpHVknCU73Hmt7G2atyBqCGedzUkwrAc2u2N4c17qoFoan3ML56CuUe2nNmMC29GMNdsriwu5jWdoEnCCmwYHJSMkwPxKcE5F1vxsWNogeLNhrQU",
+    "created": "2026-05-10T08:43:48+00:00Z",
+    "proofValue": "zC5HwN6s5QzbUuFZB8rXZfc7rKbXTEyF3zQDUUQeGTH7qotQAGHpiTP3NRkwXeuQLfeqt9MfGWisDPwBFiDJBjuw9Aaj6ayyADBC7CHsYad3nePGFFGnqYoPe3z9LnvgHy5712To8WYWMj6kz7zKiZwgxRqrxzLiMeNWmw9x2Cw8DnfAmbv6rj9uqTKkyoAyKDJBBBHXb6W8DJUVfbqh96jNR13pR9N4s5uKMN7TvtHtJeJpQcuqup8NmepT8AhGNRQHbzB24ba8Ndfefpn7168esbSwdWRzgmYV1sKpPubTXb45jGWgaU4WVTXCrgsyvKXqnVZ3v8ySYw4za6UzivA8MXWBrg1YbvW4XKfYmBzUFbbro1TxDKnED9XqDoeaRMgpHGgybLtuFHSDyzzDFsW7r6VWAjZz19KNKKErZKjGHifZiMHsKEt3brc1VnE4CryqPEEFdHVSEPhcXkBRSv2v5qMognAuF5rn8VukXNKCCLLeTw6a2yZrArDPQTcw2DhtSSZjVoRr19Y5KvEWea23VyfLffqDYXr9prWDC1A1nksoPLSHxwkdhyhnr82G5rFxi2n3u7UNeuih1HqHnc25ADso2j2qF8XQsy3ay1bXQna7Fof6m8b1eJnk1MiryXAFXeoBSrKDcfV5S85Ws3hUARxJgHdRgJeR54Jbaq4ghffafMU1K8P",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
