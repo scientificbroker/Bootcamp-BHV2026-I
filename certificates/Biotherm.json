@@ -19,7 +19,7 @@
   ],
   "issuer": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/issuer-profile.json",
   "issuanceDate": "2026-05-10T01:16:48Z",
-  "id": "urn:uuid:9c347233-06f9-4751-8cf8-8f902618325c",
+  "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/Biotherm.html",
   "credentialSubject": {
     "id": "ecdsa-koblitz-pubkey:ms7B11DummyRecipientPubKey11Xyz",
     "alumniOf": {
@@ -42,12 +42,12 @@
   },
   "nonce": "ade3bf3b-7eb4-486a-8960-326f293b1d6c",
   "proof": {
-    "id": "urn:uuid:554453ab-80ce-4f23-8152-c5beca54df7a",
+    "id": "urn:uuid:bd69561f-e735-4174-ad4b-096cee2c6d32",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:03:12+00:00Z",
-    "proofValue": "zC5HwN6s5ajAL71JiH1zjNvn9BEQ4KWs8BkYB3rnp5K8HQ4212NVJSkSNcUkEojqA4hV9AwWHknfimp9xvhmWd7GehEgbBtEkYmuPbv1ho3hXy3jyzsj4UGhkuW9Q8br1ymbRQcj1fGtRySbGQwzeXfH71t1hVtetDoJbx7qBoJLvvTGBgdQK1JbRypdw3dsohuskGWKgGndL2Gjynt5A9fnfJLeXnz385j4WkjsgTs5ha4TijVaBq4aMNUXcfqh2YEVHo5NbJckEAd2pkQC1JceK6prkZGCD9Q32RCtzVikcN3QUyx1mgXgz7XjV83DoPp5J8gnN3v8icYYzGBVSMms6dGW3vwNnQeRFCEeLEReaqnA7KXh3YRkQf1Qpw84kGFo2LHfDCg6JC46F9XJXEyNU5N3tKetmnrmcKSoCAvnMe3RnYvRCje7fvanmFMCKxEVhvnrdS9fFofP3SgJfBQzbh45Wq7ZzK4WJoop2RY2xozsKDw33C3Rh5gYKBVMEz5BEWymDJzPQJNFXjNfddEZfwBjDWMmfpvyKRupqXXiopnDLRov5XPEfMbq4YfVbw7v7KCrimc9wsnXGcGp2Wy5QWmg6btuHb3bScyJoUERbTnTs1xsCpcjwVJd5i6yEoz6rstmTB6ZQBHHVYLD67kTcRDnJCpQ4s7Dkk8XGiZ8X46376uaVBg",
+    "created": "2026-05-10T08:17:01+00:00Z",
+    "proofValue": "zC5HwN6s5ajAL71aVK7A1WUN3g7b75pcw5gTxoUFeot6RyWXtXoyZKTHTBFDm59c2KpimLSVxt6nZqPfiVnNq4hcbpDoy7agbvcZwaxTdwae3r3LHrnS5mJGhZTmvkiDAePn96mFGq7pWZcAqjb4e8uYVL6u7Mj9aHCrLLxGoyDiuxL3Q3sLGfEG44wgu4SwQVpPvQwZktMPATnXd51eESHHSvQMsWYSHhpqua1M31swLXqehCzLiT3ezyX6rFWsjpDZMsiH6wx28GmM1QAYNX4KSWGCgsJ44rMzQqVazfXdbvyL2dPEobLXx5KnBBYboR3CDyVgj8c9t4KKfmQQsFBLAVBENnYUnoGJz4oZkXiG9EtsX3Bn7mDGJ99zdcLGP94NRZLzdwwktYKcEHsAWoNmWk2UdANWA4yvCBaxKjFzvgEQ9SezJzqhaj6qev6bkbDMzKKW56gj22ujn2pLD7dsdke6ymVvAcK3T4QbUHzite5X1bcPRvDSbyWPqZ49DrDTGGTL93M7D7wTVasafArTdJ3J3LCkyKwmbPScFSRE87XkhP3peTwLSLWPqH73TvLxaSFMZXtbDimLppzzdAWbqA6bcqSH2p9xEzn6wYaG8UdCkdLmqm1vMiLneaomrgir2bGnaYK1yAup5WJJxbpcSKZhX3VhiX7fwdoHhD56QXsUKWpaCsZ",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }

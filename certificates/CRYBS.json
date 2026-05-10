@@ -19,7 +19,7 @@
   ],
   "issuer": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/issuer-profile.json",
   "issuanceDate": "2026-05-10T01:16:48Z",
-  "id": "urn:uuid:e0e8582c-8ee0-4bbf-bc31-feaec289d240",
+  "id": "https://scientificbroker.github.io/Bootcamp-BHV2026-I/visual/CRYBS.html",
   "credentialSubject": {
     "id": "ecdsa-koblitz-pubkey:ms7B5DummyRecipientPubKey5Xyz",
     "alumniOf": {
@@ -42,12 +42,12 @@
   },
   "nonce": "cdabf2bd-7dda-4eef-99b1-24a3d16edfe6",
   "proof": {
-    "id": "urn:uuid:eac6cfef-fd1a-4f57-aefd-fe1eaf610928",
+    "id": "urn:uuid:c7387603-e4e9-49c2-90b5-00d14d33affd",
     "type": "DataIntegrityProof",
     "cryptosuite": "merkle-proof-2019",
     "proofPurpose": "assertionMethod",
-    "created": "2026-05-10T08:03:12+00:00Z",
-    "proofValue": "zz6UvtdphYhpmivM1X4NoUkrdw8fKJUEoPRMyubckg1euSJoTCQjBHfNvfLwFR4h9B92tGcJgthEXwkxjfySs8soLX3Qq8mqQZHgqUcY2VRxq1CdPqKkbhd7n4WXr6kjJstCiFP1DC3dZtH2sctAChSAYEhyf6fNbhFg8wZJop1Ry7nJr5JXPveYAXp2nW5YAhDoEaCQEcvnK3mkcM7Kj2oFfW4tQdJnYLDASdF8wibyNS2JFyDvVJLbztnNEi33FXg2o4uW62q9oF3fviPdQobUmDdYb5if7MG1yifW2ut9BwWwGwevciPVi76pPq9zBYKJYfzrfjwo9sU5s1boaG5CPMKQ1RhM5zMDPr68CRDEuLiDC4BpTTrBoTXi59KiS9sFsqeC3pFGm4ToCEeXgis9N9NAWrAhubM6iAXoDxdXRHGvKBfeuZGUiDX9K4BCsSiSgzYsav1vAmQz9urkZmyV7dR46DVShdPnZ5sD6iTPeyTSZjb1ZAvUMZiDEmF7bfdZsQi98K87rXLk6mvcXZFAcFwJLE93nfADUpm9rrPTy8f9pUNDJGfdQHFkCpLnLVaacfsULeHLLYbTzD9XYzn",
+    "created": "2026-05-10T08:17:01+00:00Z",
+    "proofValue": "zz6UvtdphYhpmivDinoA8jys8JpcswWZbBpDQh3bi7nthbWYvx5j3VpNxuZSDEwCmCJTG1t956e7FyadsrC3u92GmQA1yoKhouj69gadWBHMS9UmCDo7kVxsfe47Tz9yYmvML6m95JXdoE6X4Gs37qXMYp81PsFX21FGkurCK7fBDzMHvchv7ZFkgssh22biUx44Sse4jQAmNHNPaCPNpxp6M3PgDtT2Sk7U1tGVLEBdrHKD7v5MPqpzpyzLwsLKaddkSYXZ2YW4RPboQwQ37ruiNSbdXgVHEb3PjwyWAATnMrRgudkWXHtQAzHoEBWFccPDp7367e3HdRYiZkRFQvr7Kxp3pWcTWUAaaG6P5dCrYosS81rUhG6QSMtyyWmL4nSb7ea5Pwv9UTnpKq2Q92rQHe1TbRBcbfA9vJChETqk51w1e6K8MGYfFxMEPJvXCHvG6Z8AvpYydW16g6uwpMZhVogndtDYNC6frhQPfqLUaDQTsMoBiQtMjhq37LbY6HtkrYwyNToZ1Cxs3LhXf588qBdnBfdQDfExCaXaci1xF6JWVfJFtMgfLd5A6dmdTASZ2N7LP6JQkBAWDfy8Hr7",
     "verificationMethod": "ecdsa-koblitz-pubkey:0x51c5C95d72d82d9bfbB05471c43cBD3E4C2AC5e4"
   }
 }
