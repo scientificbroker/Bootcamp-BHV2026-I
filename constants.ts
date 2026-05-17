@@ -122,3 +122,137 @@ export const FAQ_DATA: FaqItem[] = [
     answer: "El programa es intensivo. Requerimos asistencia a las sesiones sincrónicas (Martes 10am y Viernes 3pm) y al menos 10-15 horas semanales de trabajo autónomo en equipo para cumplir con los entregables."
   }
 ];
+
+export interface Startup {
+  name: string;
+  ceo: string;
+  members: string;
+  score: string;
+  tier: string;
+  htmlUrl: string;
+  pngUrl: string;
+  jsonUrl: string;
+}
+
+export const STARTUPS_DATA: Startup[] = [
+  {
+    name: "ApiRobotics",
+    ceo: "María del carmen arana Rodriguez",
+    members: "María del carmen arana Rodriguez",
+    score: "82.54",
+    tier: "Listo con ajustes",
+    htmlUrl: "./visual/ApiRobotics.html",
+    pngUrl: "./visual/ApiRobotics.png",
+    jsonUrl: "./certificates/ApiRobotics.json"
+  },
+  {
+    name: "Pompom",
+    ceo: "Penélope Alaska Berlanga Yriarte",
+    members: "Carla Acha Inga",
+    score: "74.94",
+    tier: "Fundación sólida",
+    htmlUrl: "./visual/Pompom.html",
+    pngUrl: "./visual/Pompom.png",
+    jsonUrl: "./certificates/Pompom.json"
+  },
+  {
+    name: "MIZETA",
+    ceo: "Franco Edgardo Sernaque Chavesta",
+    members: "Daniela Sheryl Martínez Esteban | Franco Edgardo Sernaque Chavesta",
+    score: "74.09",
+    tier: "Fundación sólida",
+    htmlUrl: "./visual/MIZETA.html",
+    pngUrl: "./visual/MIZETA.png",
+    jsonUrl: "./certificates/MIZETA.json"
+  },
+  {
+    name: "LarvaGo",
+    ceo: "CEO LarvaGo",
+    members: "Integrantes LarvaGo",
+    score: "69.82",
+    tier: "Cumple requisitos",
+    htmlUrl: "./visual/LarvaGo.html",
+    pngUrl: "./visual/LarvaGo.png",
+    jsonUrl: "./certificates/LarvaGo.json"
+  },
+  {
+    name: "Chakra",
+    ceo: "Nuri Victoria Tasilla Uceda",
+    members: "Nuri Victoria Tasilla Uceda | Alfonso Alexander Briones Ventura",
+    score: "69.59",
+    tier: "Cumple requisitos",
+    htmlUrl: "./visual/Chakra.html",
+    pngUrl: "./visual/Chakra.png",
+    jsonUrl: "./certificates/Chakra.json"
+  },
+  {
+    name: "CRYBS",
+    ceo: "Carlos Rivera",
+    members: "Joaquina Mendoza y Carlos Rivera",
+    score: "68.09",
+    tier: "Cumple requisitos",
+    htmlUrl: "./visual/CRYBS.html",
+    pngUrl: "./visual/CRYBS.png",
+    jsonUrl: "./certificates/CRYBS.json"
+  },
+  {
+    name: "DragoSense",
+    ceo: "Lurdes Valeria Andrade Ballen",
+    members: "Lurdes Andrade y María Rodas Ordoñez",
+    score: "68.08",
+    tier: "Cumple requisitos",
+    htmlUrl: "./visual/DragoSense.html",
+    pngUrl: "./visual/DragoSense.png",
+    jsonUrl: "./certificates/DragoSense.json"
+  },
+  {
+    name: "Micropropagación",
+    ceo: "CEO Micropropagación",
+    members: "Integrantes Micropropagación",
+    score: "66.91",
+    tier: "Cumple requisitos",
+    htmlUrl: "./visual/Micropropagación.html",
+    pngUrl: "./visual/Micropropagación.png",
+    jsonUrl: "./certificates/Micropropagación.json"
+  },
+  {
+    name: "PdPANA",
+    ceo: "CEO PdPANA",
+    members: "Integrantes PdPANA",
+    score: "66.30",
+    tier: "Sin clasificación",
+    htmlUrl: "./visual/PdPANA.html",
+    pngUrl: "./visual/PdPANA.png",
+    jsonUrl: "./certificates/PdPANA.json"
+  },
+  {
+    name: "AURORA",
+    ceo: "CEO AURORA",
+    members: "Integrantes AURORA",
+    score: "59.16",
+    tier: "Sin clasificación",
+    htmlUrl: "./visual/AURORA.html",
+    pngUrl: "./visual/AURORA.png",
+    jsonUrl: "./certificates/AURORA.json"
+  },
+  {
+    name: "Qalia",
+    ceo: "CEO Qalia",
+    members: "Integrantes Qalia",
+    score: "56.78",
+    tier: "Sin clasificación",
+    htmlUrl: "./visual/Qalia.html",
+    pngUrl: "./visual/Qalia.png",
+    jsonUrl: "./certificates/Qalia.json"
+  },
+  {
+    name: "Biotherm",
+    ceo: "Diego Alesandro Castro Solorzano",
+    members: "Diego Alesandro Castro Solorzano | Jaseno Elena Jesús del Pilar Nagata Tejada",
+    score: "0",
+    tier: "Sin datos",
+    htmlUrl: "./visual/Biotherm.html",
+    pngUrl: "./visual/Biotherm.png",
+    jsonUrl: "./certificates/Biotherm.json"
+  }
+];
