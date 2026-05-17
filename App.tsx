@@ -201,34 +201,51 @@ const App: React.FC = () => {
           <div className="container mx-auto px-4 relative z-10">
             <div className="bg-white/5 backdrop-blur-lg rounded-3xl p-8 md:p-12 border border-white/10 flex flex-col md:flex-row items-center gap-12">
                <div className="flex-1 text-center md:text-left">
-                 <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
+                 <span className="inline-block px-3 py-1 bg-bio-main/20 text-bio-accent rounded-full text-xs font-bold uppercase tracking-widest mb-4 border border-bio-main/20">EVENTO CULMINADO CON ÉXITO</span>
+                 <h2 className="text-3xl md:text-5xl font-display font-bold mb-6 leading-tight">
                    El Gran Cierre: <br/>
-                   <span className="text-bio-accent">Demo Day Presencial</span>
+                   <span className="text-white">Así fue nuestro</span> <span className="text-bio-accent">Demo Day</span>
                  </h2>
-                 <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-                   25 de Abril, desde las 11:00 am. <br/>
-                   Presenta tu pitch de 3 minutos ante inversores de impacto y corporativos (Pharma/Agro). Es tu momento de brillar.
+                 <p className="text-slate-300 text-lg mb-6 leading-relaxed">
+                   El pasado **25 de Abril** celebramos con gran orgullo el cierre del bootcamp. Las **12 startups finalistas** de la primera cohorte presentaron sus pitches de alto impacto ante inversores líderes de venture capital y corporaciones de los sectores Pharma y Agro, obteniendo sus credenciales oficiales verificadas criptográficamente.
                  </p>
-                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                   <div className="bg-black/30 px-6 py-3 rounded-lg text-center border border-white/5">
-                      <span className="block text-2xl font-bold font-mono text-bio-accent">25</span>
-                      <span className="text-xs uppercase tracking-wider text-slate-400">Abril</span>
-                   </div>
-                   <div className="bg-black/30 px-6 py-3 rounded-lg text-center border border-white/5">
-                      <span className="block text-2xl font-bold font-mono text-bio-accent">11:00</span>
-                      <span className="text-xs uppercase tracking-wider text-slate-400">AM</span>
+                 
+                 <div className="flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start">
+                   <a 
+                     href="#certificates" 
+                     className="inline-flex items-center gap-2 bg-gradient-to-r from-bio-main to-bio-accent text-slate-900 font-extrabold px-6 py-3.5 rounded-xl hover:shadow-lg hover:shadow-bio-main/25 hover:-translate-y-0.5 transition-all text-sm w-full sm:w-auto justify-center shadow-md font-sans"
+                   >
+                     <Award className="w-5 h-5 shrink-0" />
+                     <span>Explorar 12 Startups y Certificados</span>
+                   </a>
+                   
+                   <div className="flex gap-3 w-full sm:w-auto justify-center">
+                     <div className="bg-black/40 px-4 py-2 rounded-xl text-center border border-white/10 shrink-0">
+                        <span className="block text-lg font-bold font-mono text-bio-accent">25</span>
+                        <span className="text-[10px] uppercase tracking-wider text-slate-400">Abril</span>
+                     </div>
+                     <div className="bg-black/40 px-4 py-2 rounded-xl text-center border border-white/10 shrink-0">
+                        <span className="block text-lg font-bold font-mono text-bio-accent">12</span>
+                        <span className="text-[10px] uppercase tracking-wider text-slate-400">Startups</span>
+                     </div>
                    </div>
                  </div>
                </div>
+               
                <div className="flex-1 w-full max-w-md">
-                 <div className="aspect-video bg-gradient-to-br from-slate-800 to-black rounded-xl overflow-hidden shadow-2xl relative group cursor-pointer border border-white/20">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                       <Presentation className="w-16 h-16 text-white/50 group-hover:text-bio-accent transition-colors scale-100 group-hover:scale-110 duration-300" />
+                 <div className="aspect-video bg-gradient-to-br from-slate-800 to-black rounded-xl overflow-hidden shadow-2xl relative group border border-white/20">
+                    <div className="absolute inset-0 flex items-center justify-center z-20">
+                       <a 
+                         href="#certificates" 
+                         className="w-16 h-16 bg-bio-main text-slate-900 rounded-full flex items-center justify-center shadow-2xl hover:bg-bio-accent hover:scale-110 transition-all duration-300 animate-pulse"
+                         title="Explorar 12 Startups y Certificados"
+                       >
+                         <Award className="w-8 h-8" />
+                       </a>
                     </div>
-                    {/* FIXED: Now using the constant */}
-                    <img src={IMAGES.demoDay} className="opacity-40 w-full h-full object-cover" alt="Auditorio" />
+                    <img src={IMAGES.demoDay} className="opacity-45 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Auditorio Demo Day" />
                  </div>
-                 <p className="text-center text-sm text-slate-400 mt-4">Requisito para graduarse: Entregar Deck Final</p>
+                 <p className="text-center text-sm text-slate-400 mt-4 font-medium">Requisito de Graduación: Completado</p>
                </div>
             </div>
           </div>
